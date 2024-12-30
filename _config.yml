@@ -2,7 +2,7 @@ title: dead dot pink # name of the site
 author: dead  # name of site's author
 email: deaddotpink@proton.me # email of site's author
 url: https://dead.pink # root address of the site
-baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   A site for survivors.
 
