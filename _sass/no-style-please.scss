@@ -57,6 +57,14 @@ p { margin: 1rem 0; }
 
 ul {   
   /* border: 1px solid red; BORDER TO SEE WHAT IS GOING ON */
+  list-style-type: square;
+  margin: 0rem;
+  padding: 0 1rem; 
+}
+
+ul.menu {   
+  /* border: 1px solid red; BORDER TO SEE WHAT IS GOING ON */
+  list-style-type: square;
   margin: 0rem;
   padding: 0 1rem; 
 }
