@@ -1,6 +1,6 @@
-<ul>
+<ul style="list-style-type: none;">
   {%-for item in include.collection-%}
-    <li>
+    <li style="list-style-type: square;">
     {%- if item.url -%}
       <a href="{{ item.url }}">{{ item.title }}</a>
     {%- else -%}
