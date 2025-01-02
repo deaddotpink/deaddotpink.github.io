@@ -55,7 +55,7 @@ hr { margin: 2rem 0; }
 
 p { margin: 1rem 0; }
 
-li { margin: 0.4rem 0; }
+li { margin: 1rem 0; }
 
 *:target { background: yellow; }
 
@@ -104,7 +104,7 @@ blockquote {
   font-style: italic;
   border: thin solid black;
   padding: 1rem;
-  margin: 0.4rem;
+  margin: 0.4rem; /* added to push closer to edge */
   p { margin: 0; }
 }
 
