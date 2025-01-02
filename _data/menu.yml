@@ -1,6 +1,15 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
+title: TEST1
+    entries:
+      - title: ABOUT 1
+        url: about
+title: TEST2
+    entries:
+      - title: ABOUT 2
+        url: about
+
 entries:
   - title: info
     entries:
