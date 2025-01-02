@@ -65,14 +65,18 @@ li { margin: 0rem 0; }
 
 .w {
   max-width: 640px;
-  margin: 0 auto;
-  padding: 4rem 0rem 0rem;
+  /* margin: 0 auto;
+  padding: 4rem 0 0;
+  */
+  margin: 4rem 0 0;
 }
 
 .wf { /* this is just for the footer, i don't know how else to do it */
   max-width: 640px;
-  margin: 0 auto;
-  padding: 0rem 2rem 4rem;
+  /* margin: 0 auto;
+  padding: 0 2rem 4rem;
+  */
+  margin: 0 2rem 4rem;
 }
 
 hr {
