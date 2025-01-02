@@ -38,12 +38,13 @@ body {
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
 
-a { color: #14ad5f; }
+a:link { 
+  color: #14ad5f; 
+}
 
 a:visited {
   color: #0f4127;
 }
-
 
 /* a:hover {
   color: lime; forestgreen was the other colour
