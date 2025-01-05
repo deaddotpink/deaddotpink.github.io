@@ -56,7 +56,8 @@ hr { margin: 2rem 0; }
 p { margin: 1rem 0; }
 
 ul {   
-  /* border: 1px solid red; BORDER TO SEE WHAT IS GOING ON */
+  /* border: 1px solid red; BORDER TO SEE WHAT IS GOING ON */ 
+  list-style-type: none; /* for custom things */
   margin: 0rem;
   padding: 0 2rem; 
 }
@@ -65,10 +66,17 @@ ul.menu {
   /* border: 1px solid red; BORDER TO SEE WHAT IS GOING ON */
   list-style-type: none;
   margin: 0rem;
-  padding: 0 0rem; /* top-bottom left-right, was 0 1rem but too close to side */
+  padding: 0 0rem; /* top-bottom left-right, was 0 1rem but too close to side with dots so tried 2rem */
 }
 
 li { margin: 0.3rem 0; } 
+
+ul.menu li::before {
+  content: ">"; /* Define o símbolo desejado */
+  position: absolute;
+  left: 0;
+  color: black;
+}
 
 *:target { background: yellow; }
 
