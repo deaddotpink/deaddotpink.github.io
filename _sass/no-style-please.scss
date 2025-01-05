@@ -65,7 +65,7 @@ ul.menu {
   /* border: 1px solid red; BORDER TO SEE WHAT IS GOING ON */
   list-style-type: none;
   margin: 0rem;
-  padding: 0 1rem; 
+  padding: 0 2rem; /* top-bottom left-right, was 0 1rem but too close to side */
 }
 
 li { margin: 0.3rem 0; } 
