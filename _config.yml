@@ -4,7 +4,7 @@ email: deaddotpink@proton.me # email of site's author
 url: https://dead.pink # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  A site for survivors.
+  The last comedian in the world. I am dead. Everyone is dead. 
 
 permalink: /:slug.html
 
@@ -17,7 +17,7 @@ theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
   back_home_text: "go back..." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home page
+  show_description: false # show blog description in home page
 
 sass:
   style: :compressed
