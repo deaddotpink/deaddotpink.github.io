@@ -5,9 +5,6 @@ entries:
   - title: info
     url: about
 
-  - title: info 2
-    url: about
-
   - title: journal
     post_list:
       limit: 5
