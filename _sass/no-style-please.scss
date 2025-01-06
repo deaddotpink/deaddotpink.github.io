@@ -64,9 +64,9 @@ ul {
 
 ul.menu {   
   /* border: 1px solid red; BORDER TO SEE WHAT IS GOING ON */
-  list-style-type: square; /* previously "> " */
+  list-style-type: none; /* previously "> " and square */
   margin: 0rem;
-  padding: 0 2rem; /* top-bottom left-right, was 0 1rem but too close to side with dots so tried 2rem */
+  padding: 0 0rem; /* top-bottom left-right, was 0 1rem but too close to side with dots so tried 2rem */
 }
 
 li { margin: 0.3rem 0; } 
