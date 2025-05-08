@@ -69,7 +69,7 @@ ul.menu {
   padding: 0 0rem; /* top-bottom left-right, was 0 1rem but too close to side with dots so tried 2rem */
 }
 
-li { margin: 0.3rem 0; } /* line height of each list item, original at 0.4rem */
+li { margin: 0.4rem 0; } /* line height of each list item, original at 0.4rem. I've used 0.3 */
 
 *:target { background: yellow; } 
 
@@ -87,7 +87,7 @@ li { margin: 0.3rem 0; } /* line height of each list item, original at 0.4rem */
 }
 
 hr {
-  text-align: center;
+  text-align: left; /* ORIGINAL IS CENTER */
   border: 0;
 
   &:before { content: '/////' }
