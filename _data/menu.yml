@@ -2,15 +2,31 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
-    url: about
+  - title: dead.pink
+    url: https://dead.pink
+    
+  - title: youtube.com/@deaddotpink
+    url: https://www.youtube.com/@deaddotpink
+    
+  - title: instagram.com/deaddotpink
+    url: https://www.instagram.com/deaddotpink/
+        
+  - title: onlyfans.com/deaddotpink
+    url: https://onlyfans.com/deaddotpink
+        
+  - title: amzn.eu/EXISTENTIALISMINTHECLASSROOM
+    url: https://amzn.eu/d/5ApKE5L
 
-  - title: journal
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+# I HAVE BLANKED OUT THE info AND THE journal SECTION TO MAKE THIS A REALLY BASIC MENU
+#  - title: info
+#    url: about
+
+#  - title: journal
+#    post_list:
+#      limit: 5
+#      show_more: true
+#      show_more_text: See archive...
+#      show_more_url: archive.html
 
 #  - title: posts by category
 #    post_list:
